@@ -30,7 +30,7 @@ async function login() {
       alert("logged In")
       localStorage.setItem("user",(data));
 
-    location.assign('homepage.html')}
+    location.assign('./pages/homepage.html')}
     else{
       alert("error")
     }
